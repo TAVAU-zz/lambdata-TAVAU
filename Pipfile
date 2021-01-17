@@ -8,6 +8,7 @@ pandas = "*"
 
 [dev-packages]
 pylint = "*"
+twine = "*"
 
 [requires]
 python_version = "3.9"
