@@ -7,11 +7,7 @@ def null_count(df):
     df is a dataframe
     Check a dataframe for nulls and return the number of missing values.
     """
-    print(df)
-    print(df.isnull().sum())
-    num = df.isnull().sum().sum()
-    print(f'num is {num}')
-    return num
+    return df.isnull().sum().sum()
 
 def train_test_split(df, frac):
     """

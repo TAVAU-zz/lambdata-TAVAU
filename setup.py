@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="yuhan-package-name", # the name that you will install via pip
-    version="1.0",
+    name="yuhan", # the name that you will install via pip
+    version="1.3",
     author="Yuhan Wang",
     author_email="yuhanwang001@email.com",
     description="helper functions for dataframe",
@@ -14,5 +14,5 @@ setup(
     license="MIT",
     url="https://github.com/TAVAU/lambdata-TAVAU.git",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=find_packages() # ["lambdata_utils"]
 )
